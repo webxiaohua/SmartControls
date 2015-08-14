@@ -12,7 +12,7 @@ namespace SmartWinControls.Common
     /// </summary>
     public enum SmartControlType
     {
-        Button,
+        Button,//按钮
         RadioButton,
         CheckBox,
         ComboBox,
