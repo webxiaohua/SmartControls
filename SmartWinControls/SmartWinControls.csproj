@@ -33,6 +33,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -41,9 +43,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Basement\WinAPI.cs" />
+    <Compile Include="Common\ButtonColorTable.cs" />
+    <Compile Include="Common\PubEnum.cs" />
     <Compile Include="Common\SmartControlType.cs" />
+    <Compile Include="Functions\ColorHelper.cs" />
+    <Compile Include="Functions\GraphicsPathHelper.cs" />
+    <Compile Include="Functions\NewSmoothModeGraphics.cs" />
+    <Compile Include="Functions\RectHelper.cs" />
+    <Compile Include="Painter\BasicBlockPainter.cs" />
+    <Compile Include="Painter\GlassPainter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SmartControls\Button\SmartButtonThemeBase.cs" />
+    <Compile Include="SmartControls\Button\WLButton.cs" />
+    <Compile Include="SmartControls\Button\WLButtonBase.cs" />
+    <Compile Include="SmartControls\Common\WLControlBase.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
