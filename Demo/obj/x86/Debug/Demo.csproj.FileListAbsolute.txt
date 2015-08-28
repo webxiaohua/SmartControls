@@ -1,0 +1,8 @@
+E:\SXH\GitProjects\SmartControls\Demo\bin\Debug\Demo.exe
+E:\SXH\GitProjects\SmartControls\Demo\bin\Debug\Demo.pdb
+E:\SXH\GitProjects\SmartControls\Demo\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\SXH\GitProjects\SmartControls\Demo\obj\x86\Debug\Demo.Properties.Resources.resources
+E:\SXH\GitProjects\SmartControls\Demo\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\SXH\GitProjects\SmartControls\Demo\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\SXH\GitProjects\SmartControls\Demo\obj\x86\Debug\Demo.exe
+E:\SXH\GitProjects\SmartControls\Demo\obj\x86\Debug\Demo.pdb
