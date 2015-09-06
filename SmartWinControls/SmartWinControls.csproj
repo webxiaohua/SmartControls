@@ -53,10 +53,42 @@
     <Compile Include="Painter\BasicBlockPainter.cs" />
     <Compile Include="Painter\GlassPainter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SmartControls\Button\SmartButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="SmartControls\Button\SmartButtonThemeBase.cs" />
     <Compile Include="SmartControls\Button\WLButton.cs" />
     <Compile Include="SmartControls\Button\WLButtonBase.cs" />
+    <Compile Include="SmartControls\CheckBox\CheckButtonPainter.cs" />
+    <Compile Include="SmartControls\CheckBox\CheckRectPainter.cs" />
+    <Compile Include="SmartControls\CheckBox\SmartCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SmartControls\CheckBox\SmartCheckBoxThemeBase.cs" />
+    <Compile Include="SmartControls\CheckBox\WLCheckBox.cs" />
+    <Compile Include="SmartControls\Common\ISmartControl.cs" />
     <Compile Include="SmartControls\Common\WLControlBase.cs" />
+    <Compile Include="SmartControls\Forms\ControlBoxManager.cs" />
+    <Compile Include="SmartControls\Forms\MdiBarController.cs" />
+    <Compile Include="SmartControls\Forms\SmartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmartControls\Forms\SmartForm.Designer.cs">
+      <DependentUpon>SmartForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SmartControls\Forms\SmartShadow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmartControls\Forms\SmartShadow.Designer.cs">
+      <DependentUpon>SmartShadow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SmartControls\Forms\ThemeFormBase.cs" />
+    <Compile Include="SmartControls\RadioButton\RadioButtonPainter.cs" />
+    <Compile Include="SmartControls\RadioButton\RadioMarkPainter.cs" />
+    <Compile Include="SmartControls\RadioButton\SmartRadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SmartControls\RadioButton\SmartRadioButtonThemeBase.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

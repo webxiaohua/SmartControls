@@ -1,0 +1,5 @@
+E:\SXH\GitProjects\SmartControls\SmartWinControls\obj\Debug\ResolveAssemblyReference.cache
+E:\SXH\GitProjects\SmartControls\SmartWinControls\bin\Debug\SmartWinControls.dll
+E:\SXH\GitProjects\SmartControls\SmartWinControls\bin\Debug\SmartWinControls.pdb
+E:\SXH\GitProjects\SmartControls\SmartWinControls\obj\Debug\SmartWinControls.dll
+E:\SXH\GitProjects\SmartControls\SmartWinControls\obj\Debug\SmartWinControls.pdb
