@@ -6,3 +6,6 @@ E:\SXH\GitProjects\SmartControls\Demo\obj\x86\Debug\GenerateResource.read.1.tlog
 E:\SXH\GitProjects\SmartControls\Demo\obj\x86\Debug\GenerateResource.write.1.tlog
 E:\SXH\GitProjects\SmartControls\Demo\obj\x86\Debug\Demo.exe
 E:\SXH\GitProjects\SmartControls\Demo\obj\x86\Debug\Demo.pdb
+E:\SXH\GitProjects\SmartControls\Demo\bin\Debug\SmartWinControls.dll
+E:\SXH\GitProjects\SmartControls\Demo\bin\Debug\SmartWinControls.pdb
+E:\SXH\GitProjects\SmartControls\Demo\obj\x86\Debug\Demo.Form1.resources
