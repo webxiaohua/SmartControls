@@ -24,4 +24,27 @@ namespace SmartWinControls.Functions
             _graphics.SmoothingMode = _oldMode;
         }
     }
+    public class NewClipGraphics : IDisposable
+    {
+        Region _oldClip;
+        Region _newClip;
+        Graphics _graphics;
+        bool _shouldDispose;
+
+        public NewClipGraphics(Graphics g, Region newClip, bool disposeNewClip)
+        {
+            _oldClip = g.Clip;
+            _graphics = g;
+            _shouldDispose = disposeNewClip;
+            _newClip = newClip;
+            g.Clip = newClip;
+        }
+
+        public void Dispose()
+        {
+            _graphics.Clip = _oldClip;
+            if (_shouldDispose)
+                _newClip.Dispose();
+        }
+    }
 }

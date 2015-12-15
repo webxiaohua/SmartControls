@@ -45,7 +45,11 @@
     <Compile Include="Basement\WinAPI.cs" />
     <Compile Include="Common\ButtonColorTable.cs" />
     <Compile Include="Common\PubEnum.cs" />
+    <Compile Include="Common\SmartBarControlBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Common\SmartControlType.cs" />
+    <Compile Include="Common\SmartEventsCollection.cs" />
     <Compile Include="Functions\ColorHelper.cs" />
     <Compile Include="Functions\GraphicsPathHelper.cs" />
     <Compile Include="Functions\NewSmoothModeGraphics.cs" />
@@ -66,7 +70,15 @@
     </Compile>
     <Compile Include="SmartControls\CheckBox\SmartCheckBoxThemeBase.cs" />
     <Compile Include="SmartControls\CheckBox\WLCheckBox.cs" />
+    <Compile Include="SmartControls\ComboBox\SmartComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SmartControls\ComboBox\SmartComboBoxThemeBase.cs" />
+    <Compile Include="SmartControls\ComboBox\SmartToolStripDropDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="SmartControls\Common\ISmartControl.cs" />
+    <Compile Include="SmartControls\Common\WLContainerBase.cs" />
     <Compile Include="SmartControls\Common\WLControlBase.cs" />
     <Compile Include="SmartControls\Forms\ControlBoxManager.cs" />
     <Compile Include="SmartControls\Forms\MdiBarController.cs" />
@@ -83,12 +95,21 @@
       <DependentUpon>SmartShadow.cs</DependentUpon>
     </Compile>
     <Compile Include="SmartControls\Forms\ThemeFormBase.cs" />
+    <Compile Include="SmartControls\ListBox\SmartListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SmartControls\ListBox\SmartListBoxThemeBase.cs" />
+    <Compile Include="SmartControls\ListBox\WLListBox.cs" />
     <Compile Include="SmartControls\RadioButton\RadioButtonPainter.cs" />
     <Compile Include="SmartControls\RadioButton\RadioMarkPainter.cs" />
     <Compile Include="SmartControls\RadioButton\SmartRadioButton.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="SmartControls\RadioButton\SmartRadioButtonThemeBase.cs" />
+    <Compile Include="SmartControls\ScrollBar\SmartScrollBarThemeBase.cs" />
+    <Compile Include="SmartControls\ScrollBar\WLScrollBar.cs" />
+    <Compile Include="SmartControls\TrackBar\CutePointAndValuePresenter.cs" />
+    <Compile Include="Theme\ScrollBar\ThemeScrollbarVS2013.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
